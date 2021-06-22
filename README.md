@@ -23,6 +23,12 @@ MUDANÇAS PARA A ENTREGA DO DIA 22/06/2021
 
 6 - Alteração no tamanho da fonte;
 
+7 - Adição de div's e classes em todas as páginas; 
+
+8 - Adição de CSS para deixar o site 100% responsivo;
+
+9 - Remoção do "meta name="viewport" content="width=device-width, initial-scale=1.0" (gerado por padrão no VSCode) de todas as páginas por conflitar com o CSS de responsividade;
+
 
 - INDEX
 
