@@ -1,0 +1,70 @@
+#barra-v{
+    max-width: 350px;
+    width: 100%;
+    background-color: rgb(0, 5, 94) ;
+}
+
+#barra-v ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#barra-v ul li{
+    border-bottom: 1px solid rgb(0, 195, 255);
+}
+
+#barra-v ul li a{
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+#barra-v ul li a:hover{
+    background-color: rgb(0, 195, 255);
+    transition: background.2s;
+}
+
+#barra-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(0, 5, 94);
+}
+
+#barra-h ul li{
+    display: inline;
+}
+
+#barra-h ul li a{
+    color: white;
+    padding: 22px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background.2s;
+}
+
+#barra-h ul li a:hover{
+    background-color: rgb(0, 195, 255);
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Rubik", sans-serif;
+    color: rgb(0, 5, 94);
+}
+
+p, li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(51, 47, 47);
+}
+
+blockquote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   
