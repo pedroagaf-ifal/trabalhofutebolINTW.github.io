@@ -3,77 +3,68 @@
 
 ------------------------//-------------------------------
 
-MUDANÇAS PARA A ENTREGA DO DIA 22/06/2021
+ENTREGA DO DIA 06/07/2021
 
 - GERAL
- 
-1 - Criação da pasta "css" e do arquivo "estilos.css";
 
-2 - Criação de um menu horizontal com CSS nas páginas 002, 003, 004 e 005;
+1 - Adição de uma barra de navegação em todas as páginas com a tag nav, todas com transição personalizada (entrega anterior);
 
-3 - Alteração das fontes das tags: h1, h2, h3, h4, h5, h6, p, li e blockquote;
+2 - Centralização de todas as páginas (na entrega anterior somente a página index não havia sido centralizada)
 
-        * Fonte utilizada nos títulos: Rubik sans-serif;
-        * Fonte utilizada nos parágrafos e nas listas: Arial sans-serif
+3 - Centralização dos títulos, imagens e tabelas das páginas;
+
+4 - Todas as listas, incluindo a barra de navegação, possuem margens personalizadas e cores também;
+
+5 - Todas as fontes foram mudadas (entrega anterior);
+	       * Fonte utilizada nos títulos: Rubik sans-serif;
+        * Fonte utilizada nos parágrafos, listas e tabelas: Arial sans-serif;
         * Fonte utilizada na tag blockquote: Verdana sans-serif;
-        
-4 - Alteração da cor de fundo das páginas;
-
-5 - Alteração na cor das tags: h1, h2, h3, h4, h5, h6, p, li e blockquote;
-
-6 - Alteração no tamanho da fonte;
-
-7 - Adição de div's e classes em todas as páginas; 
-
-8 - Adição de CSS para deixar o site 100% responsivo;
-
-9 - Remoção do "meta name="viewport" content="width=device-width, initial-scale=1.0" (gerado por padrão no VSCode) de todas as páginas por conflitar com o CSS de responsividade;
-
 
 - INDEX
 
-1 - Adição de um menu vertical na lista pré-existente da página;
+1 - Nenhuma mudança específica na página, somente as gerais que afetam ela também;
 
 
-- PÁGINA 002 (Notícias)
+- PAGINA002
 
-1 - Todas as imagens presentes passaram por modificações em seus tamanhos para que ficassem padronizadas e agora apresentam a tag "picture" e são responsivas;
-        
-2 - Mudança do Favicon;
-        
-3 - Criação de um novo título ("Copa América 2021") e parágrafo para dar continuidade à notícia já escrita;
-        
-4 - Adição de um vídeo do YouTube ("Melhores Momentos Brasil 4x0 Peru");
+1 - Foi criado um tópico novo "Mudanças na Copa América" que conta com um texto introdutório inserido na tag "header";
+
+2 - Todo o conteúdo principal da página foi envelopado na tag "main";
+
+3 - Adicionado um novo tópico "O caminho até a final" e novos textos para contextualizar com a evolução da Copa América;
 
 
-- PÁGINA 003 (Seleção Brasileira)
-        
-1 - Adição de um vídeo do YouTube ("Os 8 Maiores Artilheiros da Seleção Brasileira");
-        
-2 - Criação do tópico "Maiores artilheiros da história da seleção", onde um pequeno texto e uma lista não-ordenada foram feitos para introduzir o vídeo inserido;
-        
-3 - Foi feita uma mudança na imagem anteriormente presente no tópico "Copa das Confederações", onde esta foi substituída por outra por motivos estéticos;
-        
-4 - Uma nova imagem foi inserida no tópico "Olimpíadas";
-        
-5 - Todas as imagens presentes passaram por modificações em seus tamanhos para que ficassem padronizadas e agora apresentam a tag "picture" e são responsivas;
+- PAGINA003
+
+1 - Foi relocado para uma tag "header" um texto anteriormente inserido que servia como introdução;
+
+2 - Foi criado um tópico novo: "Início e a formação da Seleção Brasileira";
+
+3 - A tag "main" foi utilizada para envelopar todo o conteúdo principal da página;
 
 
-- PÁGINA 004 (Palmeiras)
-        
-1 - Criação de um tópico "Para Descontrair", que conta com o vídeo do YouTube "Palmeiras bicampeão da Libertadores", uma paródia sobre o Palmeiras;
-        
-2 - Todas as imagens presentes passaram por modificações em seus tamanhos para que ficassem padronizadas e agora apresentam a tag "picture" e são responsivas;
+- PAGINA004
 
+1 - Foi relocado para uma tag "header" um texto anteriormente inserido que servia como introdução;
 
-- PÁGINA 005 (Flamengo)
-        
-1 - Adição do áudio das músicas "Samba da Estácio - Flamengo 1995 (Estácio de Sá)" e "Em Dezembro de 81 (Nação 12)";
-        
-2 - Adição de vídeos do YouTube (Torcida do Flamengo cantando a música "Sou Rubro-Negro" (Nação 12) e Vídeo documentário de 8 minutos da Final da Libertadores de 2019);
-        
-3 - Todas as imagens presentes, com exceção da imagem de Cláudio Coutinho, passaram por modificações em seus tamanhos para que ficassem padronizadas e agora apresentam a tag "picture" e são responsivas;
-        
-4 - Correção de um texto que havia um caracter posicionado de forma incorreta; 
+2 - A tag "main" foi utilizada para envelopar todo o conteúdo da página abaixo do cabeçalho;
+
+3 - Adicionado um pequeno texto para contexto no tópico "Para descontrair";
+
+PAGINA005
+
+1 - Criação de um novo tópico na página: "Principais Jogadores"
+
+2 - Adição de uma tabela para os principais jogadores do Flamengo;
+
+3 - Criação de CSS externo para editar a tabela, deixando-a zebrada, alterando sua fonte e inserindo uma sombra;
+
+4 - Criação de um cabeçalho introdutório na página, criando um novo h1 (Clube de Regatas do Flamengo) e um novo parágrafo inseridos na tag header;
+
+5 - Adição da tag main que insere todo o conteúdo da página sobre a história do clube;
+
+6 - Criada uma div que abrange dois blockquotes e os áudios que os seguem para editá-los em CSS;
+
+7 - Todos os blockquote e audios estão centralizados;
 
  ------------------------//-------------------------------
