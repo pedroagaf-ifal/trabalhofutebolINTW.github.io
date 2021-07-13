@@ -82,12 +82,21 @@
         <img src="imagens/palmeiras_paulista_2020_grande.jpg" alt="Palmeiras campeão Paulista 2020">
     </picture>
     <p>O ano de 2020 foi marcado pela pandemia da Covid-19, que matou milhões de pessoas no mundo e provocou a paralisação das competições esportivas entre março e julho. A despeito do momento triste da pandemia, a torcida palmeirense teria uma alegria histórica, já que o alviverde disputou e levou o título na finalíssima da competição estadual justamente contra o seu maior rival: o Corinthians. A equipe corinthiana vinha mal no torneio e ganhou fôlego justamente após vencer o Palmeiras perto do fim da primeira fase no primeiro <em>Derby Paulista</em> sem público de toda a história, seguindo as medidas de segurança para evitar a propagação do novo coronavirus. Com o título, o Palmeiras, novamente com Vanderlei Luxemburgo no comando, rompeu um hiato de 12 anos sem títulos estaduais, impediu o tetracampeonato do maior rival e desempatou as disputas em finais de Campeonato Paulista contra o Corinthians, passando a ter 4 conquistas em decisões contra 3 do alvinegro.</p>
-    <h1>Para descontrair</h1>
-    <p>Por fim, segue um vídeo do canal "futparódias" do YouTube, que é uma música sobre o bicampeonato do Palmeiras na Libertadores de 2020:</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/d-VC7NKbHWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <a href="#1" onclick="ativar_secao(1)">Principais títulos da Seleção</a>
+    <section>
+        <h1>Para descontrair</h1>
+        <p>Por fim, segue um vídeo do canal "futparódias" do YouTube, que é uma música sobre o bicampeonato do Palmeiras na Libertadores de 2020:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d-VC7NKbHWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
     </main>  
     </div>
     <div class="colunaDir">&nbsp;</div>
 </div>
+<script type="text/javascript">
+    function ativar_secao(num) {
+        document.querySelector("section:nth-of-type(" + num + ")").classList.toggle("visivel");
+    }
+</script>
 </body>
 </html>
